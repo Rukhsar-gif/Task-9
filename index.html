@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="A responsive image gallery with lightbox preview."
+    >
+
+    <meta
+        name="author"
+        content="Rukhsar Hussain"
+    >
+
+    <title>Image Gallery </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="page">
+
+        <section
+            class="gallery-container"
+            aria-labelledby="page-title"
+        >
+
+            <!-- Header -->
+            <header class="header">
+
+                <h1 id="page-title">
+                    Image Gallery
+                </h1>
+
+                <p class="description">
+                    Explore a collection of images and click any image
+                    to view it in a larger preview.
+                </p>
+
+            </header>
+
+
+            <!-- Gallery -->
+            <section
+                class="gallery"
+                aria-label="Image gallery"
+            >
+
+                <figure class="gallery-item">
+                    <button
+                        type="button"
+                        class="image-button"
+                        data-image="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85"
+                        data-alt="Mountain landscape with a lake"
+                        aria-label="View mountain landscape"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=80"
+                            alt="Mountain landscape with a lake"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <figcaption>Mountain Landscape</figcaption>
+                </figure>
+
+
+                <figure class="gallery-item">
+                    <button
+                        type="button"
+                        class="image-button"
+                        data-image="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=85"
+                        data-alt="Blue ocean and sandy beach"
+                        aria-label="View ocean and beach"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=80"
+                            alt="Blue ocean and sandy beach"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <figcaption>Ocean Escape</figcaption>
+                </figure>
+
+
+                <figure class="gallery-item">
+                    <button
+                        type="button"
+                        class="image-button"
+                        data-image="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=85"
+                        data-alt="Green forest with sunlight"
+                        aria-label="View green forest"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=700&q=80"
+                            alt="Green forest with sunlight"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <figcaption>Forest Light</figcaption>
+                </figure>
+
+
+                <figure class="gallery-item">
+                    <button
+                        type="button"
+                        class="image-button"
+                        data-image="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=85"
+                        data-alt="Snow covered mountain under a night sky"
+                        aria-label="View snowy mountain"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=700&q=80"
+                            alt="Snow covered mountain under a night sky"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <figcaption>Snowy Peaks</figcaption>
+                </figure>
+
+
+                <figure class="gallery-item">
+                    <button
+                        type="button"
+                        class="image-button"
+                        data-image="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=85"
+                        data-alt="Mountain valley landscape"
+                        aria-label="View mountain valley"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=700&q=80"
+                            alt="Mountain valley landscape"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <figcaption>Mountain Valley</figcaption>
+                </figure>
+
+
+                <figure class="gallery-item">
+                    <button
+                        type="button"
+                        class="image-button"
+                        data-image="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1200&q=85"
+                        data-alt="Blue ocean waves"
+                        aria-label="View ocean waves"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=700&q=80"
+                            alt="Blue ocean waves"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <figcaption>Ocean Waves</figcaption>
+                </figure>
+
+
+                <figure class="gallery-item">
+                    <button
+                        type="button"
+                        class="image-button"
+                        data-image="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=85"
+                        data-alt="Sunlight through green trees"
+                        aria-label="View trees and sunlight"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=700&q=80"
+                            alt="Sunlight through green trees"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <figcaption>Golden Forest</figcaption>
+                </figure>
+
+
+                <figure class="gallery-item">
+                    <button
+                        type="button"
+                        class="image-button"
+                        data-image="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85"
+                        data-alt="Rocky mountain landscape"
+                        aria-label="View rocky mountains"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=80"
+                            alt="Rocky mountain landscape"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <figcaption>Rocky Mountains</figcaption>
+                </figure>
+
+            </section>
+
+
+            <!-- Lightbox -->
+            <div
+                class="lightbox"
+                id="lightbox"
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby="lightbox-title"
+                hidden
+            >
+
+                <div class="lightbox-content">
+
+                    <div class="lightbox-header">
+
+                        <h2 id="lightbox-title">
+                            Image Preview
+                        </h2>
+
+                        <button
+                            type="button"
+                            class="close-button"
+                            id="closeButton"
+                            aria-label="Close image preview"
+                        >
+                            &times;
+                        </button>
+
+                    </div>
+
+                    <img
+                        id="lightboxImage"
+                        src=""
+                        alt=""
+                    >
+
+                </div>
+
+            </div>
+
+
+           
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
